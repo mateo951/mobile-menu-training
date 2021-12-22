@@ -417,6 +417,52 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+#overlay {
+  bottom: 5%;
+  background: #403E3D;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay-menu-bg {
+  bottom: 0;
+  background: #e5e5e5;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.cancelBttn {
+  float: right;
+  padding: 25px;
+}
+
+.mobile-menu-ul {
+  float: left;
+}
+
+.mobile-menu-li {
+  padding: 11px;
+  padding-left: 30px;
+  font-size: 35px;
+  color: #FFF5E1;
+  text-align: left;
+  width: 100vw;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.mobile-menu-li a {
+  color: #FFF5E1;
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
