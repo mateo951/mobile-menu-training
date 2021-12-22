@@ -9,9 +9,9 @@ hamburgerBttn.addEventListener('click', () => {
   grayBgDiv.classList.add('overlay');
   div.innerHTML = '<img src="./media/cancel.png" class="cancelBttn"></img>'
     + '<ul class="mobile-menu-ul">'
-    + '<li class="mobile-menu-li"><a href="#section-1">Porfolio</a></li>'
-    + '<li class="mobile-menu-li"><a href="#section-2">About</a></li>'
-    + '<li class="mobile-menu-li"><a href="#section-3">Contact</a></li>'
+    + '<li class="mobile-menu-li"><a href="#projects">Porfolio</a></li>'
+    + '<li class="mobile-menu-li"><a href="#about-me">About</a></li>'
+    + '<li class="mobile-menu-li"><a href="#contact">Contact</a></li>'
     + '</ul>';
   document.body.appendChild(div);
   document.body.appendChild(grayBgDiv);
