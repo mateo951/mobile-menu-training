@@ -419,7 +419,7 @@ textarea {
 
 #overlay {
   bottom: 5%;
-  background: #403E3D;
+  background: #403e3d;
   z-index: 2;
   cursor: pointer;
 }
@@ -452,7 +452,7 @@ textarea {
   padding: 11px;
   padding-left: 30px;
   font-size: 35px;
-  color: #FFF5E1;
+  color: #fff5e1;
   text-align: left;
   width: 100vw;
   font-family: 'Inter', sans-serif;
@@ -460,7 +460,7 @@ textarea {
 }
 
 .mobile-menu-li a {
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 @media all and (min-width: 720px) {

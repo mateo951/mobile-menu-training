@@ -1,6 +1,6 @@
 const div = document.createElement('div');
 const grayBgDiv = document.createElement('div');
-let hamburgerBttn = document.querySelector(".menu-bars");
+const hamburgerBttn = document.querySelector('.menu-bars');
 
 hamburgerBttn.addEventListener('click', () => {
   div.id = 'overlay';
@@ -33,5 +33,4 @@ hamburgerBttn.addEventListener('click', () => {
       grayBgDiv.remove();
     });
   }
-    
 });
