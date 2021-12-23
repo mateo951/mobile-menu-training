@@ -10,8 +10,11 @@ hamburgerBttn.addEventListener('click', () => {
   div.innerHTML = '<img src="./media/cancel.png" class="cancelBttn"></img>'
     + '<ul class="mobile-menu-ul">'
     + '<li class="mobile-menu-li"><a href="#projects">Porfolio</a></li>'
+    + '<img class="overlay-bg-separator" src="./media/separator-mobile.png"></img>'
     + '<li class="mobile-menu-li"><a href="#about-me">About</a></li>'
+    + '<img class="overlay-bg-separator" src="./media/separator-mobile.png"></img>'
     + '<li class="mobile-menu-li"><a href="#contact">Contact</a></li>'
+    + '<img class="overlay-bg-separator" src="./media/separator-mobile.png"></img>'
     + '</ul>';
   document.body.appendChild(div);
   document.body.appendChild(grayBgDiv);
