@@ -13,7 +13,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 To get a local copy up and running follow these simple example steps.
 - On your terminal and run the following command to clone the repository
   
-  `git clone git@github.com:mateo951/mobile-menu-training.git`
+  `git clone https://github.com/mateo951/mobile-menu-training`
 
 ## Authors
 👤 Mateo Villagómez
