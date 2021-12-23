@@ -1,4 +1,4 @@
-const div = document.createElement('div');
+const div = document.createElement('nav');
 const grayBgDiv = document.createElement('div');
 const hamburgerBttn = document.querySelector('.menu-bars');
 
