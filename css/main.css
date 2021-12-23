@@ -432,10 +432,6 @@ textarea {
   width: 100%;
 }
 
-.overlay-bg-separator {
-  margin-left: 20px;
-}
-
 .overlay {
   position: absolute;
   left: 0;
